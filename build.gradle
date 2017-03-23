@@ -33,6 +33,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-security')
 	compile('org.springframework.boot:spring-boot-starter-thymeleaf')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('com.fizzed:ch-smpp:5.0.9')
+	compile('org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.2.RELEASE')
 	runtime('mysql:mysql-connector-java')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
