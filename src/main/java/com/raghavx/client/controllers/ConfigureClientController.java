@@ -85,8 +85,7 @@ public class ConfigureClientController {
 			logger.info("enquire_link_resp #1: commandStatus [" + enquireLinkResp1.getCommandStatus() + "="
 					+ enquireLinkResp1.getResultMessage() + "]");
 
-			System.out.println("Press any key to send enquireLink #2");
-			System.in.read();
+			
 
 			// demo of an "asynchronous" enquireLink call - send it, get a
 			// future,
